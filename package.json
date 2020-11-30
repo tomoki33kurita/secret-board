@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tomoki33kurita/secret-board#readme",
   "dependencies": {
+    "http-auth": "^3.2.3",
     "pug": "^2.0.4"
   }
 }
