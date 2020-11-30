@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tomoki33kurita/secret-board/issues"
   },
-  "homepage": "https://github.com/tomoki33kurita/secret-board#readme"
+  "homepage": "https://github.com/tomoki33kurita/secret-board#readme",
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
 }
