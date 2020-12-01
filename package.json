@@ -1,7 +1,7 @@
 {
   "name": "secret-board",
   "version": "1.0.0",
-  "description": "",
+  "description": "秘密の匿名掲示板",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -18,6 +18,10 @@
   "homepage": "https://github.com/tomoki33kurita/secret-board#readme",
   "dependencies": {
     "http-auth": "^3.2.3",
-    "pug": "^2.0.4"
+    "jade": "^1.11.0",
+    "pg": "^7.17.1",
+    "pg-hstore": "^2.3.3",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.5"
   }
 }
