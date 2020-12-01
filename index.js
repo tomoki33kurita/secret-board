@@ -8,9 +8,7 @@ const basic = auth.basic({
   file: './users.htpasswd'
 })
 
-const server = http.createServer(basic,(req, res) => {
-  router.route(req,res)
-})
+const server = http.createServer(basic,(req, res) => router.route(req,res))
 .on('error', e => console.error('Server Error', e))
 .on('clientError', e => console.error('Client Error', e))
 
